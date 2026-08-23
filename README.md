@@ -12,13 +12,13 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/
 
 ## 🌟 ¿Por qué existe EliOptimizer?
 
-Creado desde la experiencia de campo como técnico electrónico, EliOptimizer nace para resolver un problema real: la lentitud en computadoras con hardware modesto.
+De un usuario de PC modesta, para otros usuarios. EliOptimizer nace de la experiencia técnica de campo combinada con el día a día de usar un equipo limitado. Sin rodeos corporativos ni falsas promesas.
 
-    * Diseñado para hardware humilde: Ideal para procesadores Celeron, Atom o i3 de primeras generaciones con discos HDD, memorias eMMC o RAM reducida.
+* Diseñado para hardware humilde: Pensado específicamente en equipos con Celeron, Atom, i3 antiguos, almacenamiento eMMC/HDD y memoria RAM ajustada.
 
-    * Optimización sin riesgo: Desactiva únicamente los procesos secundarios que saturan tu sistema.
+* Optimización sin riesgo: Desactiva con precisión solo la carga secundaria que satura tu sistema.
 
-    * Simplicidad total: No necesitas conocimientos de programación ni ingeniería. Es una solución intuitiva creada para cualquier usuario.
+* Simplicidad ante todo: No necesitas ser ingeniero para recuperar la velocidad de tu PC. Es software con mentalidad by users for users: accesible, transparente y directo al grano.
 
 ---
 
@@ -35,16 +35,35 @@ Creado desde la experiencia de campo como técnico electrónico, EliOptimizer na
 Para ejecutar el optimizador en tu equipo, solo debes seguir estos sencillos pasos:
 
 1. Descarga el archivo ejecutable del script: `EliOptimizerexplicated.ps1`.
-2. O copia el siguiente comando y pégalo directamente dentro de tu consola de PowerShell para ejecutar la herramienta directamente desde internet (¡GitHub le añadirá un botón de **Copiar** aquí al lado!):
-
-
-
+2. O copia el siguiente comando irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1 | iex que aparece al inicio del readme.
 3. Haz clic derecho sobre el archivo descargado en tu computadora y selecciona **Ejecutar con PowerShell como administrador**.
 4. El script detectará tu entorno y se **auto-elevará solicitando permisos de administrador** de forma automática (esencial para detener servicios profundos del sistema).
-5. Elige los interruptores que desees apagar o encender y presiona **Aplicar**.
+5. Elige los interruptores que desees apagar  o encender y presiona **Aplicar**.
 
 ---
 
+## Funcionamiento
+
+El programa  refleja el estado real ( el que le asignes o el que venga establecido en tu equipo):
+
+Estado | Aspecto | Significado
+--- | --- | ---
+🔵 Encendido | Azul, texto claro | La actividad o servicio está habilitado/en ejecución en el sistema.
+⚪ Apagado | Gris, texto atenuado | El servicio o actividad deshabilitó/detuvo  al pulsar Aplicar.
+🔒 Bloqueado | Gris oscuro, deshabilitado | Protegido automáticamente por presencia de antivirus de terceros. Para este caso en particular puedes manejar el comportamiento del antivirus desde el propio software que elegiste, EliOptimizer no interferirá en absoluto. Si no tienes antivirus la herramienta detectará esa situación y te otorgará nuevamente el control de cada botón para que vuelvas a usar Defender
+
+En la esquina superior derecha se encuentra un contador (0 / 59 a Desactivar) que indica la cantidad de botones seleccionados y/o cambios ya establecidos dependiendo si presionaste el botón Aplicar:
+
+%ProgramData%\EliOptimizer\BackupInicial.json
+
+🔘  Botones
+
+Botón | Acción
+--- | ---
+Desact. todo | Desactiva todos los servicios → optimización completa en un clic.
+Activar todo | Enciende todos los interruptores → estado activo por defecto[cite: 3].
+Restablecer | Lee el respaldo JSON y restaura la configuración original de fábrica de tu PC[cite: 3].
+Aplicar | Guarda los cambios en el Registro, Servicios y Tareas programadas de Windows[cite: 3].
 ## 📄 Código Abierto y Transparente
 
 Este proyecto es **100% de código abierto**. El archivo `.ps1` es de texto puro y no contiene dependencias externas ni instaladores opacos. Puedes auditarlo, modificarlo o usarlo libremente en tus labores de soporte técnico o mantenimiento informático diario.
