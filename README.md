@@ -14,11 +14,11 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/
 
 Creado desde la experiencia de campo como técnico electrónico, EliOptimizer nace para resolver un problema real: la lentitud en computadoras con hardware modesto.
 
-    Diseñado para hardware humilde: Ideal para procesadores Celeron, Atom o i3 de primeras generaciones con discos HDD, memorias eMMC o RAM reducida.
+    * Diseñado para hardware humilde: Ideal para procesadores Celeron, Atom o i3 de primeras generaciones con discos HDD, memorias eMMC o RAM reducida.
 
-    Optimización sin riesgo: Desactiva únicamente los procesos secundarios que saturan tu sistema.
+    * Optimización sin riesgo: Desactiva únicamente los procesos secundarios que saturan tu sistema.
 
-    Simplicidad total: No necesitas conocimientos de programación ni ingeniería. Es una solución intuitiva creada para cualquier usuario.
+    * Simplicidad total: No necesitas conocimientos de programación ni ingeniería. Es una solución intuitiva creada para cualquier usuario.
 
 ---
 
