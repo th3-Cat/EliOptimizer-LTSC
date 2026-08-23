@@ -1,4 +1,3 @@
-﻿#
 # 1. PERMISOS DE JEFE (ADMINISTRADOR)-AUTO-ELEVACIÓN OBLIGATORIA
 # Si el programa se abre sin permisos de administrador, se cierra solo 
 # y se vuelve a abrir pidiéndole permiso a Windows. Esto es obligatorio 
