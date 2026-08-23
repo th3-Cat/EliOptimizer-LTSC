@@ -33,7 +33,7 @@ Para ejecutar el optimizador en tu equipo, solo debes seguir estos sencillos pas
 2. O copia el siguiente comando y pégalo directamente dentro de tu consola de PowerShell para ejecutar la herramienta directamente desde internet (¡GitHub le añadirá un botón de **Copiar** aquí al lado!):
 
 ```powershell
-[scriptblock]::Create((irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1)).Invoke()
+((irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1)).Invoke()
 ```
 
 3. Haz clic derecho sobre el archivo descargado en tu computadora y selecciona **Ejecutar con PowerShell como administrador**.
