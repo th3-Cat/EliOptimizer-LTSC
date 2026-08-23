@@ -2,8 +2,12 @@
 
 ### El optimizador interactivo para Windows 10 LTSC, diseñado de usuario para usuarios.
 
-> 🛠️ **Filosofía "By user to users"** — Una herramienta visual, honesta y directa, hecha para usuarios que desean ajustes simples pero muy efectivos.
+> 🛠️ **Filosofía "By user to users"** — Una herramienta visual, honesta y directa, hecha para usuarios de Windows LTSC que desean ajustes simples pero muy efectivos.
 
+```powershell
+irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1 | iex
+```
+> ➡️ Pégalo en una terminal PowerShell como administrador y listo. Se descarga, pide elevación y abre la ventana.
 ---
 
 ## 🌟 ¿Por qué existe EliOptimizer?
@@ -32,9 +36,7 @@ Para ejecutar el optimizador en tu equipo, solo debes seguir estos sencillos pas
 1. Descarga el archivo ejecutable del script: `EliOptimizerexplicated.ps1`.
 2. O copia el siguiente comando y pégalo directamente dentro de tu consola de PowerShell para ejecutar la herramienta directamente desde internet (¡GitHub le añadirá un botón de **Copiar** aquí al lado!):
 
-```powershell
-((irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1)).Invoke()
-```
+
 
 3. Haz clic derecho sobre el archivo descargado en tu computadora y selecciona **Ejecutar con PowerShell como administrador**.
 4. El script detectará tu entorno y se **auto-elevará solicitando permisos de administrador** de forma automática (esencial para detener servicios profundos del sistema).
