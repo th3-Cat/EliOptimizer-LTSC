@@ -613,7 +613,7 @@ function Crear-ToggleSwitch {
     # le avisa al usuario qué antivirus lo está protegiendo en ese instante. Si está libre, muestra 
     # a qué categoría pertenece el truco (ej. "Categoría: Rendimiento") para mantener el orden.
     $LabelGrupo = New-Object System.Windows.Forms.Label
-    $LabelGrupo.Text = if ($BloquearPorAV) { "Protegido por: $NombreAntivirusTerceros" } else { "Categoría: $($Item.Grupo)" }
+    $LabelGrupo.Text = if ($BloquearPorAV) { "Protegido por: $NombreAntivirusTerceros" } else { "$($Item.Grupo)" }
     $LabelGrupo.Font = New-Object System.Drawing.Font("Segoe UI", 8)
     $LabelGrupo.ForeColor = [System.Drawing.Color]::Gray
     $LabelGrupo.Size = New-Object System.Drawing.Size(220, 15)
