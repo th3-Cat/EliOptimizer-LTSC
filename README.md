@@ -44,8 +44,8 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/
 ### Opción B (Descarga manual):
 1. Descarga el archivo `EliOptimizerexplicated.ps1` desde la sección de Releases o desde el repositorio.
 2. Haz clic derecho sobre el archivo descargado y selecciona **Ejecutar con PowerShell como administrador**.
-3. El script detectará tu entorno y se **auto-elevará solicitando permisos de administrador** de forma automática (esencial para detener servicios profundos del sistema)[cite: 3].
-4. Elige los interruptores que desees apagar o encender y presiona **Aplicar**[cite: 3].
+3. El script detectará tu entorno y se **auto-elevará solicitando permisos de administrador** de forma automática (esencial para detener servicios profundos del sistema).
+4. Elige los interruptores que desees apagar o encender y presiona **Aplicar**.
 
 ---
 
@@ -55,17 +55,17 @@ La app refleja el estado real de cada característica (el que le asignes o el qu
 
 Estado | Aspecto | Significado
 --- | --- | ---
-🔵 Encendido | Azul, texto claro | La característica o servicio está habilitado/en ejecución en el sistema[cite: 3].
-⚪ Apagado | Gris, texto atenuado | El servicio o función se deshabilitará/detendrá al pulsar Aplicar[cite: 3].
-🔒 Bloqueado | Gris oscuro, deshabilitado | Protegido automáticamente por presencia de un antivirus de terceros[cite: 3].
+🔵 Encendido | Azul, texto claro | La característica o servicio está habilitado/en ejecución en el sistema.
+⚪ Apagado | Gris, texto atenuado | El servicio o función se deshabilitará/detendrá al pulsar Aplicar.
+🔒 Bloqueado | Gris oscuro, deshabilitado | Protegido automáticamente por presencia de un antivirus de terceros.
 
-> **Nota sobre la Capa Detective:** Si utilizas un antivirus externo (como Kaspersky o Avast), EliOptimizer bloqueará automáticamente las opciones de Microsoft Defender para no generar conflictos[cite: 3]. Si no tienes antivirus de terceros, la herramienta mantendrá los switches desbloqueados para que gestiones Defender a tu gusto[cite: 3].
+> **Nota sobre la Capa Detective:** Si utilizas un antivirus externo (como Kaspersky o Avast), EliOptimizer bloqueará automáticamente las opciones de Microsoft Defender para no generar conflictos[cite: 3]. Si no tienes antivirus de terceros, la herramienta mantendrá los switches desbloqueados para que gestiones Defender a tu gusto.
 
-El contador en la esquina superior derecha (ej. `0 / 59 a Desactivar`) indica la cantidad de funciones seleccionadas o modificadas[cite: 3].
+El contador en la esquina superior derecha (ej. `0 / 59 a Desactivar`) indica la cantidad de funciones seleccionadas o modificadas.
 
 ### ❄️ Respaldo de Seguridad
 Al abrir la herramienta por primera vez, se genera automáticamente una captura inicial en:
-`%ProgramData%\EliOptimizer\BackupInicial.json`[cite: 3]
+`%ProgramData%\EliOptimizer\BackupInicial.json`
 
 ---
 
@@ -73,14 +73,15 @@ Al abrir la herramienta por primera vez, se genera automáticamente una captura 
 
 Botón | Acción
 --- | ---
-**Desact. todo** | Deshabilita todos los servicios y registros no bloqueados → optimización completa en un clic[cite: 3].
-**Activar todo** | Enciende todos los interruptores → estado activo por defecto[cite: 3].
-**Restablecer** | Lee el respaldo JSON y restaura la configuración que tenía tu PC antes de usar EliOptimizer[cite: 3].
-**Aplicar** | Guarda los cambios en el Registro, Servicios y Tareas programadas de Windows[cite: 3].
+**Desact. todo** | Deshabilita todos los servicios y registros no bloqueados → optimización completa en un clic.
+**Activar todo** | Enciende todos los interruptores → estado activo por defecto.
+**Restablecer** | Lee el respaldo JSON y restaura la configuración que tenía tu PC antes de usar EliOptimizer.
+**Aplicar** | Guarda los cambios en el Registro, Servicios y Tareas programadas de Windows.
 
 > ⚠️ **Importante sobre "Restablecer":** El botón *Restablecer* devuelve tu PC al punto exacto en el que estaba **antes** de abrir EliOptimizer por primera vez[cite: 3]. Si ya tenías configuraciones personalizadas hechas por ti o por otros programas, EliOptimizer las respetará y te devolverá a ese mismo estado[cite: 3]. No confundir con "Default" de fábrica de Windows.
 
 ---
+
 
 ## 📄 Código Abierto y Transparente
 
