@@ -32,7 +32,8 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/
 ## 🖱️ Cómo usar la herramienta
 
 Para ejecutar el optimizador en tu equipo, elige una de las siguientes opciones:
-Opción A (Recomendada):
+
+###Opción A (Recomendada):
 
 Copia y pega el siguiente comando en PowerShell (como Administrador):
 
