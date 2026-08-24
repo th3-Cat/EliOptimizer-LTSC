@@ -280,6 +280,27 @@ Reduce el tiempo que Windows espera a las aplicaciones que tardan en cerrarse du
 * Al deshabilitar el mantenimiento automático diario y la desfragmentación programada, previenes caídas drásticas de rendimiento y bloqueos del sistema que ocurren cuando Windows detecta falsos tiempos de inactividad y arranca estas tareas pesadas en segundo plano mientras el usuario aún está utilizando la computadora.
 ---
 
+### ✅ Tecnologías Utilizadas
+
+Para lograr una optimización quirúrgica sin instalar software de terceros ni alterar la estabilidad del entorno, esta herramienta trabaja exclusivamente con cuatro componentes nativos del sistema operativo:
+
+1. 📂 **Registro del Sistema (`Registry`)**
+   * **Qué es:** La base de datos central que almacena las configuraciones del sistema.
+   * **Ejemplo en código:** `MenuShowDelay` (Grupo: Fluidez). Al cambiar su valor de 400ms a 20ms, se elimina la latencia artificial al abrir menús contextuales.
+
+2. 🔐 **Directivas de Grupo Local (`GPO` / Policies)**
+   * **Qué es:** Reglas de administración avanzadas que dictan comportamientos obligatorios en el núcleo.
+   * **Ejemplo en código:** `AllowTelemetry` (Grupo: Telemetría). Inyecta una restricción que deshabilita por completo el flujo de recolección de diagnósticos de fondo.
+
+3. ⚙️ **Servicios de Fondo (`Services`)**
+   * **Qué es:** Programas invisibles que se ejecutan en segundo plano consumiendo memoria RAM y ciclos de CPU.
+   * **Ejemplo en código:** `BDESVC` (Cifrado de Disco BitLocker). Detiene el proceso en tiempo real para liberar recursos en hardware modesto.
+
+4. ⏳ **Tareas Programadas (`Scheduled Tasks`)**
+   * **Qué es:** Activadores automáticos que esperan a que el equipo entre en reposo para iniciar mantenimientos pesados.
+   * **Ejemplo en código:** `Microsoft Compatibility Appraiser` (Grupo: Telemetría 2021). Desactiva el disparador automático para prevenir congelamientos sorpresa mientras usas la PC.
+---
+
 ## 🤝 Créditos y Agradecimientos
 
 * **Desarrollo y Lógica de Optimización:** Creado por **th3-Cat** pensando en la comunidad de hardware modesto.
