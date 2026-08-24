@@ -233,16 +233,51 @@ Para entender el impacto real de EliOptimizer no hay que mirar promesas mágicas
 
 Tras hacer efectivos los cambios (botones en gris y click en "Aplicar" + reinicio), esté es el nuevo comportamiento del procesador derivado de cada botón elegido 
 
-#### ⚡ Fluidez:  
-
-* PRIORIDAD ESTÁNDAR DE CPU:
+#### ⚡ Fluidez  
+* Prioridad estandar del CPU→
 Mejora la respuesta de las aplicaciones en primer plano al ajustar cómo Windows reparte el tiempo del procesador.
-* RETRASO EN DESPLIEGUE DE MENÚS:
+* Retraso en respuesta de menús→
 Hace que los menús de Windows aparezcan más rápido al reducir la espera antes de mostrarlos.
-* CONTENIDO COMPLETO AL ARRASTRAR:
+* Contenido completo al arrastrar→
 Reduce el trabajo gráfico al mover ventanas, mostrando solo su contorno en lugar de redibujar todo su contenido.
-* ESPERA LENTA AL CERRAR PROCESOS:
+* Espera lenta al cerrar procesos→
 Reduce el tiempo que Windows espera a las aplicaciones que tardan en cerrarse durante el apagado.
+
+#### 🎮 Servicios Xbox
+* Evitas el consumo innecesario de memoria RAM al impedir que los procesos de inicio de sesión y gestión de accesorios carguen controladores en segundo plano sin estar en uso.  su desactivación elimina la carga sobre el procesador, el disco y la red al detener la búsqueda de partidas guardadas y el mantenimiento de puertos para conexiones multijugador que no están incluidos en versiones LTSC.
+
+#### 📡 Telemetría y privacidad
+* Reduces la carga de trabajo sobre el procesador y disminuyes el uso del disco al detener el procesamiento y envío de informes de uso. Además, en sistemas con memoria RAM muy limitada (2GB o 4GB), ayuda a mitigar el consumo innecesario de memoria al evitar que el servicio de mensajería en desuso permanezca escuchando activamente en segundo plano.
+
+#### 🏢 Virtualización y empresa
+* Evitas el consumo innecesario de memoria RAM en sistemas con recursos muy limitados (2GB o 4GB) al impedir que procesos en desuso se ejecuten en segundo plano. Dado que estas herramientas están diseñadas exclusivamente para redes corporativas, computadoras públicas o entornos empresariales, su desactivación elimina servicios sin utilidad en una PC personal.
+  
+#### 🔒 Seguridad y cifrado
+* BitLocker es una herramienta de seguridad de Windows que cifra tus datos en tiempo real para protegerlos en caso de robo físico del disco. Si utilizas un procesador de bajo rendimiento o antiguo (como ciertos Intel Atom, Celeron o Core i3 antiguos sin soporte de cifrado por hardware AES-NI), desactivar esta función liberará una carga significativa de trabajo en tu CPU cada vez que el sistema abre, copia o modifica archivos, mejorando la fluidez general del equipo. Sin embargo, no reduce el desgaste físico ni la cantidad de lecturas y escrituras en el almacenamiento, ya que el volumen de datos transferidos sigue siendo el mismo.
+
+#### ☎️ Redes antiguas y remotas→
+* Al deshabilitar estos servicios obsoletos de red y acceso remoto en equipos de gama baja (como Intel Atom, Celeron o Core i3 antiguos), reduces la superficie de ataque cerrando puertos vulnerables. Además, en sistemas con memoria RAM muy limitada (2GB o 4GB), ayuda a mitigar el consumo innecesario de memoria al evitar que procesos en desuso retengan recursos del sistema.
+
+#### 🖐️ Biometría y sensores→
+* Al apagar el monitoreo continuo de sensores y lectores (los cuales no tienes instalados), eliminas las consultas constantes a la CPU y ahorras batería y memoria RAM.
+
+#### 🚀 Rendimiento y SysMain
+* Al detener SysMain y la indexación automática, reduces significativamente los picos prolongados de uso de disco al 100%, un problema crítico en equipos con discos mecánicos (HDD) o almacenamientos eMMC lentos. Alivias la carga sobre el almacenamiento y la memoria RAM, aunque los programas que usas con mucha frecuencia podrían tardar un poco más en cargar la primera vez que los abres.
+
+#### 🔄 Windows Update y mantenimiento
+* Al pausar las actualizaciones automáticas y sus tareas de reinicio, impides que el proceso de Windows Update (wuauserv) sature por completo los núcleos del procesador y el ancho de banda de la red de forma imprevista mientras usas el equipo. También agiliza el proceso de apagado al eliminar los tiempos de espera forzados para la instalación de parches.
+
+#### 🎨 Multimedia y accesorios
+* Al desactivar los componentes visuales avanzados, la transparencia y los servicios secundarios de fondo (como el spooler de impresión o el bluetooth si no se utilizan), liberas una cantidad medible de memoria RAM (más de 100 MB en conjunto). Además, deshabilitar los efectos visuales reduce drásticamente la carga de procesamiento gráfico en las tarjetas integradas lentas, haciendo que el explorador de archivos y las transiciones de las ventanas se sientan más fluidas.
+
+#### 🛡️ Antivirus y seguridad integrada
+* Al desactivar la protección en tiempo real y los análisis continuos de Microsoft Defender, eliminas el uso intensivo de CPU y las lecturas concurrentes de disco que ocurren cada vez que se ejecuta o descarga un archivo. Esto reduce los congelamientos del sistema y acelera de forma medible la apertura de programas y juegos en procesadores de dos núcleos, aunque deja al sistema operando sin protección nativa contra software malicioso.
+
+#### 📊 Telemetría avanzada y sistema
+* Al deshabilitar las tareas programadas de evaluación de compatibilidad y los informes de errores, eliminas tareas automáticas que generan picos repentinos de uso de CPU. Asimismo, al desactivar las sugerencias de Bing en el cuadro de búsqueda, el menú Inicio responde con mayor rapidez al limitar la consulta exclusivamente a los archivos locales del equipo, eliminando la latencia de la consulta web.
+
+#### 🛠️ Mantenimiento programado
+* Al deshabilitar el mantenimiento automático diario y la desfragmentación programada, previenes caídas drásticas de rendimiento y bloqueos del sistema que ocurren cuando Windows detecta falsos tiempos de inactividad y arranca estas tareas pesadas en segundo plano mientras el usuario aún está utilizando la computadora.
 
 ## 📄 Código Abierto y Transparente
 
