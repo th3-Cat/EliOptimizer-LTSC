@@ -1,3 +1,7 @@
+# EliOptimizer - Optimización para Windows 10 LTSC
+# Desarrollado por th3-Cat
+# Basado en la interfaz gráfica y arquitectura visual de EdgeControl por Daniel Rodríguez **[xdoofy92](https://github.com/xdoofy92)** (MIT License)
+
 # 1. PERMISOS DE JEFE (ADMINISTRADOR)-AUTO-ELEVACIÓN OBLIGATORIA
 # Si el programa se abre sin permisos de administrador, se cierra solo 
 # y se vuelve a abrir pidiéndole permiso a Windows. Esto es obligatorio 
