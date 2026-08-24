@@ -37,7 +37,9 @@ Para ejecutar el optimizador en tu equipo, elige una de las siguientes opciones:
 
 Copia y pega el siguiente comando en PowerShell (como Administrador):
 
+```powershell
 irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1 | iex
+```
 
 ### Opción B (Descarga manual):
 1. Descarga el archivo `EliOptimizerexplicated.ps1` desde la sección de Releases o desde el repositorio.
