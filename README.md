@@ -51,7 +51,7 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/main/EliOptimize
 ```
 
 ### Opción B (Descarga manual):
-1. Descarga el archivo `EliOptimizerexplicated.ps1` desde la sección de Releases o desde el repositorio.
+1. Descarga el archivo `EliOptimizer-LTSC.ps1` desde la sección de Releases o desde el repositorio.
 2. Haz clic derecho sobre el archivo descargado y selecciona **Ejecutar con PowerShell como administrador**.
 3. El script detectará tu entorno y se **auto-elevará solicitando permisos de administrador** de forma automática (esencial para detener servicios profundos del sistema).
 4. Elige los interruptores que desees apagar o encender y presiona **Aplicar**.
