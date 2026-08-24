@@ -299,6 +299,27 @@ Para lograr una optimización quirúrgica sin instalar software de terceros ni a
 4. ⏳ **Tareas Programadas (`Scheduled Tasks`)**
    * **Qué es:** Activadores automáticos que esperan a que el equipo entre en reposo para iniciar mantenimientos pesados.
    * **Ejemplo en código:** `Microsoft Compatibility Appraiser` (Grupo: Telemetría 2021). Desactiva el disparador automático para prevenir congelamientos sorpresa mientras usas la PC.
+
+===============================================================================
+⚠️ DESCARGO DE RESPONSABILIDAD (DISCLAIMER)
+===============================================================================
+
+El uso de esta herramienta es bajo tu propio criterio y responsabilidad.
+
+* Software Libre: Este programa se distribuye "tal cual" bajo los términos 
+  de la Licencia MIT. Como autor, garantizo la transparencia absoluta del 
+  código original, pero no puedo hacerme responsable por fallos o imprevistos 
+  en caso de que el usuario modifique o manipule el código proporcionado.
+
+* Entorno recomendado: La herramienta fue diseñada específicamente para 
+  optimizar equipos de bajos recursos en los entornos citados en la matriz 
+  de compatibilidad. No se recomienda su aplicación a ciegas en computadoras 
+  de uso crítico profesional o producción sin revisar qué hace cada interruptor.
+
+* Crea un respaldo: Aunque la herramienta genera un "congelador de estado" 
+  inicial de seguridad (BackupInicial.json), siempre es una buena práctica 
+  realizar un punto de restauración nativo antes de modificar registros 
+  profundos del sistema operativo.
 ---
 
 ## 🤝 Créditos y Agradecimientos
