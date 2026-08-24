@@ -213,7 +213,7 @@ Los 59 interruptores de la lista funcionan tanto de forma independiente como en 
 
 ---
 
-## ⚛️Beneficios esperados:
+## ⚛️⚛Beneficios esperados:
 
 ## 📄 Código Abierto y Transparente
 
