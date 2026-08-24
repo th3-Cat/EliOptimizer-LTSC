@@ -211,6 +211,10 @@ Los 59 interruptores de la lista funcionan tanto de forma independiente como en 
 | Desfragmentación de Disco | Mantenimiento y optimización de discos programado | `\Microsoft\Windows\Defrag\ScheduledDefrag` |
 | Mantenimiento Automático Diario | Tareas nocturnas de diagnóstico y optimización | `MaintenanceDisabled` |
 
+---
+
+
+
 ## 📄 Código Abierto y Transparente
 
 Este proyecto es **100% de código abierto**. El archivo `.ps1` es texto plano y no contiene dependencias externas ni compilados opaco. Puedes auditarlo, modificarlo o usarlo libremente en tus labores de soporte técnico o mantenimiento informático diario.
