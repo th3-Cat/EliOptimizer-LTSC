@@ -81,7 +81,135 @@ Botón | Acción
 > ⚠️ **Importante sobre "Restablecer":** El botón *Restablecer* devuelve tu PC al punto exacto en el que estaba **antes** de abrir EliOptimizer por primera vez[cite: 3]. Si ya tenías configuraciones personalizadas hechas por ti o por otros programas, EliOptimizer las respetará y te devolverá a ese mismo estado[cite: 3]. No confundir con "Default" de fábrica de Windows.
 
 ---
+### 🧩 Lista de Botones (y ajustes) de EliOptimizer
 
+Los 59 interruptores de la lista funcionan tanto de forma independiente como en grupo. Aquí se presentan en bloques por un tema de afinidades entre botones y sus funciones.
+
+>👀 **Importante:** Se recalca que la herramienta detecta el estado de configuración actual del PC, por tanto si nunca ha efectuado cambios por su cuenta, por defecto todos los botones aparecerán en azul, pero si ya hizo configuraciones previas el o los botones involucrados a esos cambios aparecerán en gris indicando que el servicio/registro/tarea ya está deshabilitado ( un ejemplo muy común sería el caso del botón para la impresora o para el bluetooth) 
+
+#### ⚡ Fluidez de interfaz y kernel
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Prioridad Estándar de CPU | Asignación equitativa de tiempo de CPU | `Win32PrioritySeparation` |
+| Retraso en Despliegue de Menús | Latencia artificial al abrir menús contextuales | `MenuShowDelay` |
+| Contenido Completo al Arrastrar | Renderizado de contenido al mover ventanas | `DragFullWindows` |
+| Espera Lenta al Cerrar Procesos | Tiempo de espera prolongado al apagar la PC | `WaitToKillAppTimeout` |
+
+#### 🎮 Servicios Xbox
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Inicio de Sesión Xbox | Autenticación en segundo plano de Xbox | `XboxLiveAuthManager` |
+| Guardado en la Nube de Xbox | Sincronización de partidas guardadas | `XblGameSave` |
+| Accesorios y Mandos Xbox | Soporte para mandos y periféricos Xbox | `XboxGipSvc` |
+| Red y Multijugador Xbox | Servicios de red multijugador de Xbox | `XboxNetApiSvc` |
+
+#### 📡 Telemetría y privacidad
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Telemetría y Diagnósticos | Recolección y envío de datos a Microsoft | `AllowTelemetry` |
+| Notificaciones y Mensajes WAP | Servicio de empuje de mensajes WAP | `dmwappushservice` |
+
+#### 🏢 Virtualización y empresa
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Cliente Virtual App-V | Cliente de virtualización de aplicaciones | `AppVClient` |
+| Sincronización de Entorno UE-V | Agente de virtualización de experiencia de usuario | `UevAgentService` |
+| Gestión de Cuentas Compartidas | Gestión de configuración para PC compartidas | `shpamsvc` |
+
+#### 🔒 Seguridad y cifrado
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Cifrado de Disco BitLocker | Servicio de encriptación de unidades de disco | `BDESVC` |
+
+#### ☎️ Redes antiguas y remotas
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Vínculos de Red Distribuidos | Seguimiento de archivos movidos en red local | `TrkWks`[cite: 3] |
+| Conexión Remota y VPN | Administrador de conexiones de acceso remoto | `RemoteAccess`[cite: 3] |
+| Servicio de Fax | Funcionalidad de envío y recepción de Fax | `Fax`[cite: 3] |
+| Acceso Remoto al Registro | Modificación remota del registro de Windows | `RemoteRegistry`[cite: 3] |
+| Uso Compartido de Puertos TCP | Compartición de puertos mediante protocolo Net.TCP | `NetTcpPortSharing`[cite: 3] |
+| Servicios de Telefonía Fija | Control de dispositivos de telefonía (TAPI) | `TapiSrv`[cite: 3] |
+
+#### 🖐️ Biometría y sensores
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Agente de Autenticación SSH | Gestión de llaves de autenticación SSH | `ssh-agent`[cite: 3] |
+| Lectores de Huella y Biometría | Servicio de captura de datos biométricos | `WbioSrvc`[cite: 3] |
+| Lector de Tarjetas Inteligentes | Enumeración de lectores de tarjetas Smart Card | `ScDeviceEnum`[cite: 3] |
+| Ubicación y Geolocalización | Servicio de localización geográfica del sistema | `lfsvc`[cite: 3] |
+
+#### 🚀 Rendimiento y SysMain
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Precarga SysMain (Prefetcher) | Caché e indexación agresiva en RAM/Disco | `EnablePrefetcher`[cite: 3] |
+| Control Parental | Monitoreo y restricciones de cuentas infantiles | `WpcMonSvc`[cite: 3] |
+| Programa Windows Insider | Servicio de evaluación previa de Windows | `wisvc`[cite: 3] |
+| Indexación de Búsqueda en Disco | Búsqueda e indexación automática en segundo plano | `PreventIndexingOnLowDiskSpaceMB`[cite: 3] |
+
+#### 🔄 Windows Update y mantenimiento
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Actualizaciones Windows Update | Descarga e instalación automática de parches | `WindowsUpdateMaster`[cite: 3] |
+| Actualizar al reiniciar/apagar | Opciones forzadas de actualización al apagar | `HideUpdateInShutdownMenu`[cite: 3] |
+
+#### 🎨 Multimedia y accesorios
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Asistente de Búsqueda Cortana | Servicio del asistente de voz e integración | `AllowCortana`[cite: 3] |
+| Descarga de Mapas Sin Conexión | Administrador de mapas descargados | `MapsBroker`[cite: 3] |
+| Teclado Táctil y Escritura a Mano | Paneles de entrada táctil y reconocimiento | `TabletInputService`[cite: 3] |
+| Red de Windows Media Player | Compartición de bibliotecas multimedia en red | `WMPNetworkSvc`[cite: 3] |
+| Registros de Rendimiento y Alertas | Conjuntos de recopiladores de datos del sistema | `pla`[cite: 3] |
+| Servicio de Impresoras | Cola de impresión de documentos | `Spooler`[cite: 3] |
+| Soporte para Bluetooth | Servicio de compatibilidad con dispositivos Bluetooth | `bthserv`[cite: 3] |
+| Efectos Visuales Avanzados | Animaciones complejas en la interfaz | `VisualFXSetting`[cite: 3] |
+| Transparencia en las Ventanas | Efectos de acrílico y transparencia en ventanas | `EnableTransparency`[cite: 3] |
+
+#### 🛡️ Antivirus y seguridad integrada
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Antivirus Microsoft Defender | Servicio principal de protección del antivirus | `WinDefend`[cite: 3] |
+| Monitoreo de Amenazas Sense | Servicio de protección avanzada contra amenazas | `Sense`[cite: 3] |
+| Protección de Red de Defender | Inspección de tráfico de red en tiempo real | `WdNisSvc`[cite: 3] |
+| Centro de Seguridad de Windows | Servicio del panel de control de seguridad | `SecurityHealthService`[cite: 3] |
+| Protección AntiSpyware Basica | Módulo de análisis contra programas espía | `DisableAntiSpyware`[cite: 3] |
+| Protección en Tiempo Real | Escaneo continuo de archivos ejecutados | `DisableRealtimeMonitoring`[cite: 3] |
+| Análisis de Comportamiento | Detección de patrones sospechosos de software | `DisableBehaviorMonitoring`[cite: 3] |
+| Escaneo Rápido al Encender | Análisis rápido de arranque de la máquina | `DisableCatchupQuickScan`[cite: 3] |
+| Escaneo Profundo al Encender | Análisis completo de arranque del sistema | `DisableCatchupFullScan`[cite: 3] |
+| Filtro de Archivos SmartScreen | Verificación de archivos descargados de la red | `EnableSmartScreen`[cite: 3] |
+| Escaneo de Malware Mensual (MRT) | Descarga y ejecución de la herramienta MRT | `DontOfferThroughWUAU`[cite: 3] |
+
+#### 📊 Telemetría avanzada y sistema
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Análisis de Compatibilidad de Apps | Evaluación periódica de telemetría de aplicaciones | `\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser`[cite: 3] |
+| Seguimiento de Uso de Programas | Actualizador de telemetría sobre uso de apps | `\Microsoft\Windows\Application Experience\ProgramDataUpdater`[cite: 3] |
+| Sincronización de Contactos | Servicio de sincronización de contactos y datos | `OneSyncSvc`[cite: 3] |
+| Envío de Informes de Error | Generación y envío de reportes de fallos | `DisabledWER`[cite: 3] |
+| Separar procesos del sistema | Separación individual de servicios en RAM | `SvcHostSplitThresholdInKB`[cite: 3] |
+| Sugerencias de Bing en Búsqueda | Resultados web e integración con Bing | `DisableSearchBoxSuggestions`[cite: 3] |
+| Historial de Archivos Recientes | Registro de elementos abiertos recientemente | `NoRecentDocsHistory`[cite: 3] |
+
+#### 🛠️ Mantenimiento programado
+
+| Característica | Qué apaga | Clave(s) de registro / Identificador |
+| :--- | :--- | :--- |
+| Desfragmentación de Disco | Mantenimiento y optimización de discos programado | `\Microsoft\Windows\Defrag\ScheduledDefrag`[cite: 3] |
+| Mantenimiento Automático Diario | Tareas nocturnas de diagnóstico y optimización | `MaintenanceDisabled`[cite: 3] |
 
 ## 📄 Código Abierto y Transparente
 
