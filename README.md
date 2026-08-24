@@ -14,7 +14,7 @@
 > 🛠️ **Filosofía "By user to users"** — Desarrollada pensando como usuario y para el usuario. Una herramienta visual, honesta y directa, hecha para usuarios de Windows LTSC que desean optimizar aún mas su SO.
 
 ```powershell
-irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1 | iex
+irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizer-LTSC.ps1 | iex
 ```
 > ➡️ Pégalo en una terminal PowerShell como administrador y listo. Se descarga, pide elevación y abre la ventana.
 ---
