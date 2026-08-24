@@ -101,7 +101,7 @@ $ListaMaestra = @(
     # artificiales de Microsoft (como la latencia al abrir menús) y cambian la prioridad 
     # del procesador (Win32PrioritySeparation = 38) para que el chip Celeron/Atom se enfoque 
     # al 100% en la aplicación o juego que tengas abierto en pantalla.
-    @{ ID = "Win32PrioritySeparation"; Nombre = "Prioridad Estándar de CPU"; Tipo = "RegistroHKLM"; Ruta = "SYSTEM\CurrentControlSet\Control\PriorityControl"; ValorDefault = 2; ValorMod = 38; Grupo = "Mejora la respuesta de las aplicaciones activas" },
+    @{ ID = "Win32PrioritySeparation"; Nombre = "Prioridad Estándar de CPU"; Tipo = "RegistroHKLM"; Ruta = "SYSTEM\CurrentControlSet\Control\PriorityControl"; ValorDefault = 2; ValorMod = 38; Grupo = "Fluidez" },
     @{ ID = "MenuShowDelay";           Nombre = "Retraso en Despliegue de Menús";        Tipo = "RegistroHKCU"; Ruta = "Control Panel\Desktop"; ValorDefault = 400; ValorMod = 20; Grupo = "Fluidez" },
     @{ ID = "DragFullWindows";         Nombre = "Contenido Completo al Arrastrar";       Tipo = "RegistroHKCU"; Ruta = "Control Panel\Desktop"; ValorDefault = 1; ValorMod = 0; Grupo = "Fluidez" },
     @{ ID = "WaitToKillAppTimeout";    Nombre = "Espera Lenta al Cerrar Procesos";      Tipo = "RegistroHKCU"; Ruta = "Control Panel\Desktop"; ValorDefault = 5000; ValorMod = 2000; Grupo = "Fluidez" },
@@ -613,7 +613,7 @@ function Crear-ToggleSwitch {
     # le avisa al usuario qué antivirus lo está protegiendo en ese instante. Si está libre, muestra 
     # a qué categoría pertenece el truco (ej. "Categoría: Rendimiento") para mantener el orden.
     $LabelGrupo = New-Object System.Windows.Forms.Label
-    $LabelGrupo.Text = if ($BloquearPorAV) { "Protegido por: $NombreAntivirusTerceros" } else { "$($Item.Grupo)" }
+    $LabelGrupo.Text = if ($BloquearPorAV) { "Protegido por: $NombreAntivirusTerceros" } else { "Categoría: $($Item.Grupo)" }
     $LabelGrupo.Font = New-Object System.Drawing.Font("Segoe UI", 8)
     $LabelGrupo.ForeColor = [System.Drawing.Color]::Gray
     $LabelGrupo.Size = New-Object System.Drawing.Size(220, 15)
