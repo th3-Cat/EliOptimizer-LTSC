@@ -310,7 +310,7 @@ Para lograr una optimización quirúrgica sin instalar software de terceros ni a
    * **Ejemplo en código:** `Microsoft Compatibility Appraiser` (Grupo: Telemetría 2021). Desactiva el disparador automático para prevenir congelamientos sorpresa mientras usas la PC.
 
 ===============================================================================
-⚠️ DESCARGO DE RESPONSABILIDAD (DISCLAIMER)
+* ⚠️ DESCARGO DE RESPONSABILIDAD (DISCLAIMER)
 ===============================================================================
 
 El uso de esta herramienta es bajo tu propio criterio y responsabilidad.
