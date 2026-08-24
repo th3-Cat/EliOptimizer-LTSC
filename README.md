@@ -1,6 +1,6 @@
 <h1 align="center">  EliOptimizer 🚀 
 
-### El optimizador interactivo para Windows 10 LTSC mas facil de manejar 
+<h1 align="center">### El optimizador interactivo para Windows 10 LTSC mas facil de manejar 
 
 > 🛠️ **Filosofía "By user to users"** — Desarrollada pensando cómo usuario y para el ususario. Una herramienta visual, honesta y directa, hecha para usuarios de Windows LTSC que desean ajustes simples pero muy efectivos.
 
