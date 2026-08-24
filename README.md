@@ -58,6 +58,14 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/main/EliOptimize
 
 ---
 
+## ⚙️ Matriz de Compatibilidad Oficial
+
+| Sistema Operativo | Nivel de Soporte | Notas técnicas |
+| :--- | :--- | :--- |
+| **Windows 10 LTSC 2019 / 2021** | ✅ **100% Compatible** | Entorno nativo de pruebas. Todos los tweaks recomendados aplican con éxito. |
+| **Windows 10 LTSB 2016** | ⚠️ **90% Compatible** | Algunos nombres de servicios modernos (como Xbox avanzados) podrían no existir. |
+| **Windows 11 LTSC 2024** | 📊 **Parcialmente Compatible** | El kernel y la telemetría cambiaron; ciertas claves de registro avanzadas no surten efecto. |
+
 ## 👨‍💻 Funcionamiento de la Interfaz
 
 La app refleja el estado real de cada característica (el que le asignes o el que venga establecido en tu equipo):
@@ -309,16 +317,15 @@ Para lograr una optimización quirúrgica sin instalar software de terceros ni a
    * **Qué es:** Activadores automáticos que esperan a que el equipo entre en reposo para iniciar mantenimientos pesados.
    * **Ejemplo en código:** `Microsoft Compatibility Appraiser` (Grupo: Telemetría 2021). Desactiva el disparador automático para prevenir congelamientos sorpresa mientras usas la PC.
 
-===============================================================================
+
 * ⚠️ DESCARGO DE RESPONSABILIDAD (DISCLAIMER)
-===============================================================================
 
 El uso de esta herramienta es bajo tu propio criterio y responsabilidad.
 
 * Software Libre: Este programa se distribuye "tal cual" bajo los términos 
   de la Licencia MIT. Como autor, garantizo la transparencia absoluta del 
   código original, pero no puedo hacerme responsable por fallos o imprevistos 
-  en caso de que el usuario modifique o manipule el código proporcionado.
+  en caso el usuario modifique o manipule el código proporcionado.
 
 * Entorno recomendado: La herramienta fue diseñada específicamente para 
   optimizar equipos de bajos recursos en los entornos citados en la matriz 
