@@ -10,7 +10,7 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/
 > ➡️ Pégalo en una terminal PowerShell como administrador y listo. Se descarga, pide elevación y abre la ventana.
 ---
 
-##🌟 ¿Por qué existe EliOptimizer?
+🌟 ¿Por qué existe EliOptimizer?
 
 De un usuario de PC modesta, para otros usuarios. EliOptimizer nace de la experiencia técnica de campo combinada con el día a día de usar un equipo limitado. Sin rodeos corporativos ni falsas promesas.
 
@@ -20,7 +20,7 @@ De un usuario de PC modesta, para otros usuarios. EliOptimizer nace de la experi
 
    * Simplicidad ante todo: No necesitas ser ingeniero para recuperar la velocidad de tu PC. Es software con mentalidad by users for users: accesible, transparente y directo al grano.
 
-## ✨ Características Principales
+✨ Características Principales
 
    🎨 Interfaz Moderna: Diseño en modo oscuro con una barra de desplazamiento delgada estilo Fluent Design controlada por software.
 
