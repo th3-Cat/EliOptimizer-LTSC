@@ -278,6 +278,12 @@ Reduce el tiempo que Windows espera a las aplicaciones que tardan en cerrarse du
 
 #### 🛠️ Mantenimiento programado
 * Al deshabilitar el mantenimiento automático diario y la desfragmentación programada, previenes caídas drásticas de rendimiento y bloqueos del sistema que ocurren cuando Windows detecta falsos tiempos de inactividad y arranca estas tareas pesadas en segundo plano mientras el usuario aún está utilizando la computadora.
+---
+
+## 🤝 Créditos y Agradecimientos
+
+* **Desarrollo y Lógica de Optimización:** Creado por **th3-Cat** pensando en la comunidad de hardware modesto.
+* **Interfaz Gráfica (UI):** Este proyecto utiliza la arquitectura visual y el motor de renderizado de componentes basado en **EdgeControl**, desarrollado originalmente por **Daniel Rodríguez ([xdoofy92](https://github.com/xdoofy92))** bajo la licencia MIT. Agradecemos su contribución al software libre, la cual hizo posible la base interactiva de esta herramienta.
 
 ## 📄 Código Abierto y Transparente
 
