@@ -2,7 +2,7 @@
 
 ### El optimizador interactivo para Windows 10 LTSC mas facil de manejar 
 
-> 🛠️ **Filosofía "By user to users"** — Desarrollada pensando como usuario y para el ususario. Una herramienta visual, honesta y directa, hecha para usuarios de Windows LTSC que desean optimizar aun mas su SO.
+> 🛠️ **Filosofía "By user to users"** — Desarrollada pensando como usuario y para el usuario. Una herramienta visual, honesta y directa, hecha para usuarios de Windows LTSC que desean optimizar aún mas su SO.
 
 ```powershell
 irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1 | iex
