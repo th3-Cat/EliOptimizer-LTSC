@@ -1,6 +1,13 @@
 <h1 align="center">  EliOptimizer 🚀 
 
 
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-10_LTSC-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Interruptores](https://img.shields.io/badge/EliOptimizer-59_interruptores-0059B3?style=for-the-badge)
+![License](https://img.shields.io/badge/Licencia-MIT-3DA639?style=for-the-badge)
+
+</div>
+
 
 ### El optimizador interactivo para Windows 10 LTSC mas facil de manejar 
 
