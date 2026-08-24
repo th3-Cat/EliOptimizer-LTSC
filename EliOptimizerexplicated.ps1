@@ -1,6 +1,17 @@
-# EliOptimizer - Optimización para Windows 10 LTSC
-# Desarrollado por th3-Cat
-# Basado en la interfaz gráfica y arquitectura visual de EdgeControl por Daniel Rodríguez **[xdoofy92](https://github.com/xdoofy92)** (MIT License)
+# ==============================================================================
+# EliOptimizer 🚀 - Optimizador interactivo para Windows 10 LTSC
+# Desarrollado por: th3-Cat
+#
+# ⚙️ COMPATIBILIDAD:
+# - 100% compatible con versiones Windows 10 LTSC 2019 / 2021
+# - 90% compatible con Windows 10 LTSB 2016
+# - Parcialmente compatible con Windows 11 LTSC 2024 (aplicable pero no recomendable)
+# 
+# 🤝 CRÉDITOS DE ARQUITECTURA VISUAL:
+# Basado en la interfaz gráfica y diseño de EdgeControl por Daniel Rodríguez
+# Autor original: xdoofy92 (https://github.com) | MIT License
+# ==============================================================================
+
 
 # 1. PERMISOS DE JEFE (ADMINISTRADOR)-AUTO-ELEVACIÓN OBLIGATORIA
 # Si el programa se abre sin permisos de administrador, se cierra solo 
