@@ -212,7 +212,17 @@ Los 59 interruptores de la lista funcionan tanto de forma independiente como en 
 | Mantenimiento Automático Diario | Tareas nocturnas de diagnóstico y optimización | `MaintenanceDisabled` |
 
 ---
+## 🧠 ¿Por qué funciona? La ciencia detrás del Procesador y  los C-States
 
+Para entender el impacto real de EliOptimizer, no hay que mirar promesas mágicas, sino la física y arquitectura de tu procesador:
+
+* **Los C-States (Estados de energía):** El procesador alterna entre el estado **C0** (máxima potencia, calor y consumo) y los estados profundos **C6/C7** (reposo absoluto donde el chip se enfría).
+* **El problema de fábrica:** Windows viene con decenas de servicios en segundo plano realizando consultas invisibles (*polling*). En procesadores de gama de entrada o antiguos (Celeron, Atom, i3), estas "llamadas fantasma" despiertan al chip a **C0** decenas de veces por segundo, saturando los pocos hilos disponibles y generando *micro-stuttering* (tirones).
+* **El resultado de optimizar:** Al cortar las interrupciones inútiles, no aceleras el reloj del procesador por la fuerza; lo haces **eficiente**. La CPU logra permanecer entre el **90% y 98% en estado C6/C7** cuando no la usas, reservando el 100% de sus núcleos, hilos y memoria caché para responder al instante en cuanto abres un programa o juego.
+
+---
+
+## 🫶 Beneficios esperados
 ## 🫶 Beneficios esperados:
 
 
