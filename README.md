@@ -235,13 +235,13 @@ Tras hacer efectivos los cambios (botones en gris y click en "Aplicar" + reinici
 
 #### ⚡ Fluidez:  
 
-* PRIORIDAD ESTÁNDAR DE CPU
+* PRIORIDAD ESTÁNDAR DE CPU:
 Mejora la respuesta de las aplicaciones en primer plano al ajustar cómo Windows reparte el tiempo del procesador.
-* RETRASO EN DESPLIEGUE DE MENÚS
+* RETRASO EN DESPLIEGUE DE MENÚS:
 Hace que los menús de Windows aparezcan más rápido al reducir la espera antes de mostrarlos.
-* CONTENIDO COMPLETO AL ARRASTRAR
+* CONTENIDO COMPLETO AL ARRASTRAR:
 Reduce el trabajo gráfico al mover ventanas, mostrando solo su contorno en lugar de redibujar todo su contenido.
-* ESPERA LENTA AL CERRAR PROCESOS
+* ESPERA LENTA AL CERRAR PROCESOS:
 Reduce el tiempo que Windows espera a las aplicaciones que tardan en cerrarse durante el apagado.
 
 ## 📄 Código Abierto y Transparente
