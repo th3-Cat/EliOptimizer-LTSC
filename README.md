@@ -2,7 +2,7 @@
 
 ### El optimizador interactivo para Windows 10 LTSC mas facil de manejar 
 
-> 🛠️ **Filosofía "By user to users"** — Desarrollada pensando cómo usuario y para el ususario. Una herramienta visual, honesta y directa, hecha para usuarios de Windows LTSC que desean optimizar aun mas su SO.
+> 🛠️ **Filosofía "By user to users"** — Desarrollada pensando como usuario y para el ususario. Una herramienta visual, honesta y directa, hecha para usuarios de Windows LTSC que desean optimizar aun mas su SO.
 
 ```powershell
 irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/EliOptimizerexplicated.ps1 | iex
@@ -214,16 +214,18 @@ Los 59 interruptores de la lista funcionan tanto de forma independiente como en 
 ---
 ## 🧠 ¿Por qué funciona? La ciencia detrás del Procesador y  los C-States
 
-Para entender el impacto real de EliOptimizer, no hay que mirar promesas mágicas, sino la física y arquitectura de tu procesador:
+Para entender el impacto real de EliOptimizer, no hay que mirar promesas mágicas, sino la física y arquitectura de tu procesador, lo que ocurre dentro de él cuando ya no es posible mejorar a nivel de hardware:
 
-* **Los C-States (Estados de energía):** El procesador alterna entre el estado **C0** (máxima potencia, calor y consumo) y los estados profundos **C6/C7** (reposo absoluto donde el chip se enfría).
+* **Los C-States (Estados de energía):** son los "modos de descanso o ahorro de energía" del procesador:$C0$ (Activo): El procesador trabaja a máxima frecuencia y temperatura.$C1$ a $C6/C7$ (Reposo profundo): La CPU apaga partes de su circuito interno para enfriarse, ahorrar energía y guardar energía para cuando realmente necesites potencia. El problema: En procesadores de gamma baja, las llamadas fantasma de los servicios despiertan a la CPU del estado $C6$ al estado $C0$ decenas de veces por segundo. Como el chip es tan básico, le cuesta trabajo y tiempo "despertar y dormirse". Este ciclo continuo genera:
+* Mayor temperatura: El ventilador se acelera sin razón aparente aunque no estés haciendo nada.
+* Pérdida de potencia máxima (Throttling): Al estar caliente por llamadas innecesarias, la CPU reduce su velocidad para no quemarse justo cuando abres un programa pesado.
 * **El problema de fábrica:** Windows viene con decenas de servicios en segundo plano realizando consultas invisibles (*polling*). En procesadores de gama de entrada o antiguos (Celeron, Atom, i3), estas "llamadas fantasma" despiertan al chip a **C0** decenas de veces por segundo, saturando los pocos hilos disponibles y generando *micro-stuttering* (tirones).
 * **El resultado de optimizar:** Al cortar las interrupciones inútiles, no aceleras el reloj del procesador por la fuerza; lo haces **eficiente**. La CPU logra permanecer entre el **90% y 98% en estado C6/C7** cuando no la usas, reservando el 100% de sus núcleos, hilos y memoria caché para responder al instante en cuanto abres un programa o juego.
 
 ---
 
 ## 🫶 Beneficios esperados
-## 🫶 Beneficios esperados:
+
 
 
 ## 📄 Código Abierto y Transparente
