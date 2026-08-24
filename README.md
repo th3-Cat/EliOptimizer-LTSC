@@ -224,6 +224,20 @@ Para entender el impacto real de EliOptimizer, no hay que mirar promesas mágica
 
 * **El resultado de optimizar:** Al cortar las interrupciones inútiles, no aceleras el reloj del procesador por la fuerza; lo haces **eficiente**. La CPU logra permanecer entre el **90% y 98% en estado C6/C7** cuando no la usas, reservando el 100% de sus núcleos, hilos y memoria caché para responder al instante en cuanto abres un programa o juego.
 
+## 🧠 ¿Por qué funciona? La ciencia detrás del Procesador y los C-States
+
+Para entender el impacto real de EliOptimizer no hay que mirar promesas mágicas, sino la arquitectura del procesador y lo que ocurre dentro de él cuando ya no es posible mejorar a nivel de hardware:
+
+* **Los C-States (Estados de energía):** Son los modos de descanso de la CPU.
+  * **C0 (Activo):** El procesador trabaja a máxima frecuencia, voltaje y temperatura.
+  * **C1 a C6/C7 (Reposo profundo):** La CPU apaga partes de sus circuitos para enfriarse y ahorrar energía.
+
+* **El problema en procesadores de entrada (Celeron, Atom, i3):** Windows viene con decenas de servicios ejecutando llamadas invisibles (*polling*). Estas "llamadas fantasma" despiertan al chip del estado **C6** al **C0** decenas de veces por segundo. Al tener pocos núcleos e hilos, esto genera:
+  * **Tirones (*Micro-stuttering*):** Pérdida de fluidez por cambios de contexto continuos.
+  * **Mayor temperatura:** Los ventiladores se aceleran en reposo sin razón aparente.
+  * **Pérdida de potencia (*Throttling*):** La CPU reduce su velocidad al sobrecalentarse por tareas inútiles justo cuando abres una app pesada.
+
+* **El resultado de optimizar:** Al cortar las interrupciones inútiles no aceleras el reloj por la fuerza, sino que devuelves **eficiencia**. La CPU logra permanecer entre el **90% y 98% en estado C6/C7** al estar en reposo, reservando el 100% de sus núcleos, hilos y memoria caché para responder al instante cuando tú se lo pides.
 ---
 
 ## 🫶 Beneficios esperados
