@@ -130,89 +130,89 @@ Los 59 interruptores de la lista funcionan tanto de forma independiente como en 
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Vínculos de Red Distribuidos | Seguimiento de archivos movidos en red local | `TrkWks`[cite: 3] |
-| Conexión Remota y VPN | Administrador de conexiones de acceso remoto | `RemoteAccess`[cite: 3] |
-| Servicio de Fax | Funcionalidad de envío y recepción de Fax | `Fax`[cite: 3] |
-| Acceso Remoto al Registro | Modificación remota del registro de Windows | `RemoteRegistry`[cite: 3] |
-| Uso Compartido de Puertos TCP | Compartición de puertos mediante protocolo Net.TCP | `NetTcpPortSharing`[cite: 3] |
-| Servicios de Telefonía Fija | Control de dispositivos de telefonía (TAPI) | `TapiSrv`[cite: 3] |
+| Vínculos de Red Distribuidos | Seguimiento de archivos movidos en red local | `TrkWks` |
+| Conexión Remota y VPN | Administrador de conexiones de acceso remoto | `RemoteAccess` |
+| Servicio de Fax | Funcionalidad de envío y recepción de Fax | `Fax`|
+| Acceso Remoto al Registro | Modificación remota del registro de Windows | `RemoteRegistry` |
+| Uso Compartido de Puertos TCP | Compartición de puertos mediante protocolo Net.TCP | `NetTcpPortSharing` |
+| Servicios de Telefonía Fija | Control de dispositivos de telefonía (TAPI) | `TapiSrv`|
 
 #### 🖐️ Biometría y sensores
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Agente de Autenticación SSH | Gestión de llaves de autenticación SSH | `ssh-agent`[cite: 3] |
-| Lectores de Huella y Biometría | Servicio de captura de datos biométricos | `WbioSrvc`[cite: 3] |
-| Lector de Tarjetas Inteligentes | Enumeración de lectores de tarjetas Smart Card | `ScDeviceEnum`[cite: 3] |
-| Ubicación y Geolocalización | Servicio de localización geográfica del sistema | `lfsvc`[cite: 3] |
+| Agente de Autenticación SSH | Gestión de llaves de autenticación SSH | `ssh-agent` |
+| Lectores de Huella y Biometría | Servicio de captura de datos biométricos | `WbioSrvc` |
+| Lector de Tarjetas Inteligentes | Enumeración de lectores de tarjetas Smart Card | `ScDeviceEnum` |
+| Ubicación y Geolocalización | Servicio de localización geográfica del sistema | `lfsvc` |
 
 #### 🚀 Rendimiento y SysMain
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Precarga SysMain (Prefetcher) | Caché e indexación agresiva en RAM/Disco | `EnablePrefetcher`[cite: 3] |
-| Control Parental | Monitoreo y restricciones de cuentas infantiles | `WpcMonSvc`[cite: 3] |
-| Programa Windows Insider | Servicio de evaluación previa de Windows | `wisvc`[cite: 3] |
-| Indexación de Búsqueda en Disco | Búsqueda e indexación automática en segundo plano | `PreventIndexingOnLowDiskSpaceMB`[cite: 3] |
+| Precarga SysMain (Prefetcher) | Caché e indexación agresiva en RAM/Disco | `EnablePrefetcher` |
+| Control Parental | Monitoreo y restricciones de cuentas infantiles | `WpcMonSvc` |
+| Programa Windows Insider | Servicio de evaluación previa de Windows | `wisvc` |
+| Indexación de Búsqueda en Disco | Búsqueda e indexación automática en segundo plano | `PreventIndexingOnLowDiskSpaceMB` |
 
 #### 🔄 Windows Update y mantenimiento
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Actualizaciones Windows Update | Descarga e instalación automática de parches | `WindowsUpdateMaster`[cite: 3] |
-| Actualizar al reiniciar/apagar | Opciones forzadas de actualización al apagar | `HideUpdateInShutdownMenu`[cite: 3] |
+| Actualizaciones Windows Update | Descarga e instalación automática de parches | `WindowsUpdateMaster` |
+| Actualizar al reiniciar/apagar | Opciones forzadas de actualización al apagar | `HideUpdateInShutdownMenu` |
 
 #### 🎨 Multimedia y accesorios
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Asistente de Búsqueda Cortana | Servicio del asistente de voz e integración | `AllowCortana`[cite: 3] |
-| Descarga de Mapas Sin Conexión | Administrador de mapas descargados | `MapsBroker`[cite: 3] |
-| Teclado Táctil y Escritura a Mano | Paneles de entrada táctil y reconocimiento | `TabletInputService`[cite: 3] |
-| Red de Windows Media Player | Compartición de bibliotecas multimedia en red | `WMPNetworkSvc`[cite: 3] |
-| Registros de Rendimiento y Alertas | Conjuntos de recopiladores de datos del sistema | `pla`[cite: 3] |
-| Servicio de Impresoras | Cola de impresión de documentos | `Spooler`[cite: 3] |
-| Soporte para Bluetooth | Servicio de compatibilidad con dispositivos Bluetooth | `bthserv`[cite: 3] |
-| Efectos Visuales Avanzados | Animaciones complejas en la interfaz | `VisualFXSetting`[cite: 3] |
-| Transparencia en las Ventanas | Efectos de acrílico y transparencia en ventanas | `EnableTransparency`[cite: 3] |
+| Asistente de Búsqueda Cortana | Servicio del asistente de voz e integración | `AllowCortana` |
+| Descarga de Mapas Sin Conexión | Administrador de mapas descargados | `MapsBroker` |
+| Teclado Táctil y Escritura a Mano | Paneles de entrada táctil y reconocimiento | `TabletInputService` |
+| Red de Windows Media Player | Compartición de bibliotecas multimedia en red | `WMPNetworkSvc` |
+| Registros de Rendimiento y Alertas | Conjuntos de recopiladores de datos del sistema | `pla` |
+| Servicio de Impresoras | Cola de impresión de documentos | `Spooler` |
+| Soporte para Bluetooth | Servicio de compatibilidad con dispositivos Bluetooth | `bthserv` |
+| Efectos Visuales Avanzados | Animaciones complejas en la interfaz | `VisualFXSetting` |
+| Transparencia en las Ventanas | Efectos de acrílico y transparencia en ventanas | `EnableTransparency` |
 
 #### 🛡️ Antivirus y seguridad integrada
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Antivirus Microsoft Defender | Servicio principal de protección del antivirus | `WinDefend`[cite: 3] |
-| Monitoreo de Amenazas Sense | Servicio de protección avanzada contra amenazas | `Sense`[cite: 3] |
-| Protección de Red de Defender | Inspección de tráfico de red en tiempo real | `WdNisSvc`[cite: 3] |
-| Centro de Seguridad de Windows | Servicio del panel de control de seguridad | `SecurityHealthService`[cite: 3] |
-| Protección AntiSpyware Basica | Módulo de análisis contra programas espía | `DisableAntiSpyware`[cite: 3] |
-| Protección en Tiempo Real | Escaneo continuo de archivos ejecutados | `DisableRealtimeMonitoring`[cite: 3] |
-| Análisis de Comportamiento | Detección de patrones sospechosos de software | `DisableBehaviorMonitoring`[cite: 3] |
-| Escaneo Rápido al Encender | Análisis rápido de arranque de la máquina | `DisableCatchupQuickScan`[cite: 3] |
-| Escaneo Profundo al Encender | Análisis completo de arranque del sistema | `DisableCatchupFullScan`[cite: 3] |
-| Filtro de Archivos SmartScreen | Verificación de archivos descargados de la red | `EnableSmartScreen`[cite: 3] |
-| Escaneo de Malware Mensual (MRT) | Descarga y ejecución de la herramienta MRT | `DontOfferThroughWUAU`[cite: 3] |
+| Antivirus Microsoft Defender | Servicio principal de protección del antivirus | `WinDefend` |
+| Monitoreo de Amenazas Sense | Servicio de protección avanzada contra amenazas | `Sense` |
+| Protección de Red de Defender | Inspección de tráfico de red en tiempo real | `WdNisSvc` |
+| Centro de Seguridad de Windows | Servicio del panel de control de seguridad | `SecurityHealthService` |
+| Protección AntiSpyware Basica | Módulo de análisis contra programas espía | `DisableAntiSpyware` |
+| Protección en Tiempo Real | Escaneo continuo de archivos ejecutados | `DisableRealtimeMonitoring` |
+| Análisis de Comportamiento | Detección de patrones sospechosos de software | `DisableBehaviorMonitoring` |
+| Escaneo Rápido al Encender | Análisis rápido de arranque de la máquina | `DisableCatchupQuickScan` |
+| Escaneo Profundo al Encender | Análisis completo de arranque del sistema | `DisableCatchupFullScan` |
+| Filtro de Archivos SmartScreen | Verificación de archivos descargados de la red | `EnableSmartScreen` |
+| Escaneo de Malware Mensual (MRT) | Descarga y ejecución de la herramienta MRT | `DontOfferThroughWUAU` |
 
 #### 📊 Telemetría avanzada y sistema
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Análisis de Compatibilidad de Apps | Evaluación periódica de telemetría de aplicaciones | `\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser`[cite: 3] |
-| Seguimiento de Uso de Programas | Actualizador de telemetría sobre uso de apps | `\Microsoft\Windows\Application Experience\ProgramDataUpdater`[cite: 3] |
-| Sincronización de Contactos | Servicio de sincronización de contactos y datos | `OneSyncSvc`[cite: 3] |
-| Envío de Informes de Error | Generación y envío de reportes de fallos | `DisabledWER`[cite: 3] |
-| Separar procesos del sistema | Separación individual de servicios en RAM | `SvcHostSplitThresholdInKB`[cite: 3] |
-| Sugerencias de Bing en Búsqueda | Resultados web e integración con Bing | `DisableSearchBoxSuggestions`[cite: 3] |
-| Historial de Archivos Recientes | Registro de elementos abiertos recientemente | `NoRecentDocsHistory`[cite: 3] |
+| Análisis de Compatibilidad de Apps | Evaluación periódica de telemetría de aplicaciones | `\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser` |
+| Seguimiento de Uso de Programas | Actualizador de telemetría sobre uso de apps | `\Microsoft\Windows\Application Experience\ProgramDataUpdater` |
+| Sincronización de Contactos | Servicio de sincronización de contactos y datos | `OneSyncSvc` |
+| Envío de Informes de Error | Generación y envío de reportes de fallos | `DisabledWER` |
+| Separar procesos del sistema | Separación individual de servicios en RAM | `SvcHostSplitThresholdInKB` |
+| Sugerencias de Bing en Búsqueda | Resultados web e integración con Bing | `DisableSearchBoxSuggestions` |
+| Historial de Archivos Recientes | Registro de elementos abiertos recientemente | `NoRecentDocsHistory` |
 
 #### 🛠️ Mantenimiento programado
 
 | Característica | Qué apaga | Clave(s) de registro / Identificador |
 | :--- | :--- | :--- |
-| Desfragmentación de Disco | Mantenimiento y optimización de discos programado | `\Microsoft\Windows\Defrag\ScheduledDefrag`[cite: 3] |
-| Mantenimiento Automático Diario | Tareas nocturnas de diagnóstico y optimización | `MaintenanceDisabled`[cite: 3] |
+| Desfragmentación de Disco | Mantenimiento y optimización de discos programado | `\Microsoft\Windows\Defrag\ScheduledDefrag` |
+| Mantenimiento Automático Diario | Tareas nocturnas de diagnóstico y optimización | `MaintenanceDisabled` |
 
 ## 📄 Código Abierto y Transparente
 
-Este proyecto es **100% de código abierto**. El archivo `.ps1` es texto plano y no contiene dependencias externas ni compilados opacos[cite: 3]. Puedes auditarlo, modificarlo o usarlo libremente en tus labores de soporte técnico o mantenimiento informático diario.
+Este proyecto es **100% de código abierto**. El archivo `.ps1` es texto plano y no contiene dependencias externas ni compilados opaco. Puedes auditarlo, modificarlo o usarlo libremente en tus labores de soporte técnico o mantenimiento informático diario.
 
 *¡Gracias por usar y apoyar herramientas diseñadas de usuario para usuarios!*
