@@ -101,7 +101,7 @@ $ListaMaestra = @(
     # artificiales de Microsoft (como la latencia al abrir menús) y cambian la prioridad 
     # del procesador (Win32PrioritySeparation = 38) para que el chip Celeron/Atom se enfoque 
     # al 100% en la aplicación o juego que tengas abierto en pantalla.
-    @{ ID = "Win32PrioritySeparation"; Nombre = "Prioridad Estándar de CPU"; Tipo = "RegistroHKLM"; Ruta = "SYSTEM\CurrentControlSet\Control\PriorityControl"; ValorDefault = 2; ValorMod = 38; Grupo = "Fluidez" },
+    @{ ID = "Win32PrioritySeparation"; Nombre = "Prioridad Estándar de CPU"; Tipo = "RegistroHKLM"; Ruta = "SYSTEM\CurrentControlSet\Control\PriorityControl"; ValorDefault = 2; ValorMod = 38; Grupo = "Mejora la respuesta de las aplicaciones activas" },
     @{ ID = "MenuShowDelay";           Nombre = "Retraso en Despliegue de Menús";        Tipo = "RegistroHKCU"; Ruta = "Control Panel\Desktop"; ValorDefault = 400; ValorMod = 20; Grupo = "Fluidez" },
     @{ ID = "DragFullWindows";         Nombre = "Contenido Completo al Arrastrar";       Tipo = "RegistroHKCU"; Ruta = "Control Panel\Desktop"; ValorDefault = 1; ValorMod = 0; Grupo = "Fluidez" },
     @{ ID = "WaitToKillAppTimeout";    Nombre = "Espera Lenta al Cerrar Procesos";      Tipo = "RegistroHKCU"; Ruta = "Control Panel\Desktop"; ValorDefault = 5000; ValorMod = 2000; Grupo = "Fluidez" },
