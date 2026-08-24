@@ -10,25 +10,23 @@ irm https://raw.githubusercontent.com/th3-Cat/EliOptimizer-LTSC/refs/heads/main/
 > ➡️ Pégalo en una terminal PowerShell como administrador y listo. Se descarga, pide elevación y abre la ventana.
 ---
 
-🌟 ¿Por qué existe EliOptimizer?
+ ## 🌟 ¿Por qué existe EliOptimizer?
 
-De un usuario de PC modesta, para otros usuarios. EliOptimizer nace de la experiencia técnica de campo combinada con el día a día de usar un equipo limitado. Sin rodeos corporativos ni falsas promesas.
+**De un usuario de PC modesta, para otros usuarios.** EliOptimizer nace de la experiencia técnica de campo combinada con el día a día de usar un equipo limitado.
 
-   * Diseñado para hardware humilde: Pensado específicamente en equipos con Celeron, Atom, i3 antiguos, almacenamiento eMMC/HDD y memoria RAM ajustada.
+  **Diseñado para hardware humilde:** Pensado específicamente en equipos con Celeron, Atom, i3 antiguos, almacenamiento eMMC/HDD y memoria RAM ajustada.
+  **Optimización sin riesgo:** Desactiva con precisión solo la carga secundaria que satura tu sistema.
+  **Simplicidad ante todo:** No necesitas ser ingeniero para recuperar la velocidad de tu PC. Es software con mentalidad *by users for users*: accesible, transparente y directo al grano.
+  
+---
 
-   * Optimización sin riesgo: Desactiva con precisión solo la carga secundaria que satura tu sistema.
+## ✨ Características Principales
 
-   * Simplicidad ante todo: No necesitas ser ingeniero para recuperar la velocidad de tu PC. Es software con mentalidad by users for users: accesible, transparente y directo al grano.
+* 🎨 **Interfaz Moderna:** Diseño en modo oscuro con una barra de desplazamiento delgada estilo Fluent Design controlada por software.
+* 🕵️ **Capa Detective Antivirus:** Un sistema inteligente de protección en 3 capas que verifica tu entorno (WMI, memoria RAM y servicios) para evitar conflictos si usas software de seguridad de terceros.
+* ❄️ **El Congelador de Estado:** Genera de forma automática una captura inicial inmutable del sistema en un archivo JSON seguro. Podrás volver al estado exacto en que se encontraba tu máquina antes de utilizar EliOptimizer.
+* ⚡ **Optimización Quirúrgica:** Enfocado strictly en la prioridad de hilos del procesador y el consumo de RAM. A diferencia de otros optimizadores que solo cambian la apariencia del sistema, EliOptimizer realiza ajustes invisibles pero de impacto inmediato. Consigue la ligereza de un Windows desatendido directamente sobre tu instalación actual, o úsalo para exprimir aún más un sistema ya modificado sin generar ningún tipo de conflicto.
 
-✨ Características Principales
-
-   🎨 Interfaz Moderna: Diseño en modo oscuro con una barra de desplazamiento delgada estilo Fluent Design controlada por software.
-
-   🕵️ Capa Detective Antivirus: Un sistema inteligente de protección en 3 capas que verifica tu entorno (WMI, memoria RAM y servicios) para evitar conflictos si usas software de seguridad de terceros.
-
-   ❄️ El Congelador de Estado: Genera de forma automática una captura inicial inmutable del sistema en un archivo JSON seguro. Podrás volver al estado exacto en que se encontraba tu máquina antes de utilizar EliOptimizer.
-
-   ⚡ Optimización Quirúrgica: Enfocado strictly en la prioridad de hilos del procesador y el consumo de RAM. A diferencia de otros optimizadores que solo cambian la apariencia del sistema, EliOptimizer realiza ajustes invisibles pero de impacto inmediato. Consigue la ligereza de un Windows desatendido directamente sobre tu instalación actual, o úsalo para exprimir aún más un sistema ya modificado sin generar ningún tipo de conflicto.
 ---
 
 ## 🖱️ Cómo usar la herramienta
