@@ -76,7 +76,7 @@ Estado | Aspecto | Significado
 ⚪ Apagado | Gris, texto atenuado | El servicio o función se deshabilitará/detendrá al pulsar Aplicar.
 🔒 Bloqueado | Gris oscuro, deshabilitado | Protegido automáticamente por presencia de un antivirus de terceros.
 
-> **Nota sobre la Capa Detective:** Si utilizas un antivirus externo (como Kaspersky o Avast), EliOptimizer bloqueará automáticamente las opciones de Microsoft Defender para no generar conflictos[cite: 3]. Si no tienes antivirus de terceros, la herramienta mantendrá los switches desbloqueados para que gestiones Defender a tu gusto.
+> **Nota sobre la Capa Detective:** Si utilizas un antivirus externo (como Kaspersky o Avast), EliOptimizer bloqueará automáticamente las opciones de Microsoft Defender para no generar conflictos. Si no tienes antivirus de terceros, la herramienta mantendrá los switches desbloqueados para que gestiones Defender a tu gusto.
 
 El contador en la esquina superior derecha (ej. `0 / 59 a Desactivar`) indica la cantidad de funciones seleccionadas o modificadas.
 
@@ -95,7 +95,7 @@ Botón | Acción
 **Restablecer** | Lee el respaldo JSON y restaura la configuración que tenía tu PC antes de usar EliOptimizer.
 **Aplicar** | Guarda los cambios en el Registro, Servicios y Tareas programadas de Windows.
 
-> ⚠️ **Importante sobre "Restablecer":** El botón *Restablecer* devuelve tu PC al punto exacto en el que estaba **antes** de abrir EliOptimizer por primera vez[cite: 3]. Si ya tenías configuraciones personalizadas hechas por ti o por otros programas, EliOptimizer las respetará y te devolverá a ese mismo estado[cite: 3]. No confundir con "Default" de fábrica de Windows.
+> ⚠️ **Importante sobre "Restablecer":** El botón *Restablecer* devuelve tu PC al punto exacto en el que estaba **antes** de abrir EliOptimizer por primera vez. Si ya tenías configuraciones personalizadas hechas por ti o por otros programas, EliOptimizer las respetará y te devolverá a ese mismo estado. No confundir con "Default" de fábrica de Windows.
 
 ---
 ### 🧩 Lista de Botones (y ajustes) de EliOptimizer
@@ -347,6 +347,6 @@ El uso de esta herramienta es bajo tu propio criterio y responsabilidad.
 
 ## 📄 Código Abierto y Transparente
 
-Este proyecto es **100% de código abierto**. El archivo `.ps1` es texto plano y no contiene dependencias externas ni compilados opaco. Puedes auditarlo, modificarlo o usarlo libremente en tus labores de soporte técnico o mantenimiento informático diario.
+Este proyecto es **100% de código abierto**. El archivo `.ps1` es texto plano y no contiene dependencias externas ni compilados ocultos. Puedes auditarlo, modificarlo o usarlo libremente en tus labores de soporte técnico o mantenimiento informático diario.
 
 *¡Gracias por usar y apoyar herramientas diseñadas de usuario para usuarios!*
