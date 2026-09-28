@@ -2,7 +2,7 @@
 
 # EliOptimizer 🚀
 
-![VISITORS](https://visitor-badge.laobi.icu/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_color=555555&right_color=FF5722&style=for-the-badge)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_text=visitors&left_color=%23ff8000&right_color=%23383838&height=25)
 
 <br>
 
