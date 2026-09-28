@@ -2,11 +2,12 @@
 
 # EliOptimizer 🚀
 
+![Visitas](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=VISITAS&color=orange&query=$.value&url=https://api.countapi.xyz/hit/th3-Cat-EliOptimizer-LTSC/visits)
+
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-10_LTSC-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Interruptores](https://img.shields.io/badge/EliOptimizer-59_interruptores-0059B3?style=for-the-badge)
 ![License](https://img.shields.io/badge/Licencia-MIT-3DA639?style=for-the-badge)
-![Visitas](https://visitor-badge.laobi.icu/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_color=gray&right_color=0059B3&style=for-the-badge)
 
 </div>
 
