@@ -2,7 +2,9 @@
 
 # EliOptimizer 🚀
 
-![Visitas](https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=VISITAS&color=orange&query=$.value&url=https://api.countapi.xyz/hit/th3-Cat-EliOptimizer-LTSC/visits)
+![Visitas](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fth3-Cat%2FEliOptimizer-LTSC&count_bg=%23FF5722&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=VISITAS&edge_flat=false)
+
+<br>
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-10_LTSC-0078D6?style=for-the-badge&logo=windows&logoColor=white)
