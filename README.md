@@ -2,7 +2,7 @@
 
 # EliOptimizer 🚀
 
-![Visitors](https://visitor-badge.moyokeed.com/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_text=VISITAS&left_color=555555&right_color=FF5722&style=for-the-badge)
+![Visitas](https://visitor-badge.moyokeed.com/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_text=VISITAS&left_color=555555&right_color=FF5722&style=for-the-badge)
 
 <br>
 
