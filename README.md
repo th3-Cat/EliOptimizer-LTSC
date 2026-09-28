@@ -2,7 +2,7 @@
 
 # EliOptimizer 🚀
 
-![Visitas](https://profile-counter.glitch.me/th3-Cat-EliOptimizer-LTSC/count.svg)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_color=555555&right_color=FF5722&style=for-the-badge)
 
 <br>
 
