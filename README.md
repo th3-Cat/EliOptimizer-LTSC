@@ -2,7 +2,7 @@
 
 # EliOptimizer 🚀
 
-![Visitas](https://visitor-badge.laobi.icu/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_text=VISITAS&left_color=555555&right_color=0059B3&style=for-the-badge)
+![Visitas](https://komarev.com/ghpvc/?username=th3-Cat-EliOptimizer-LTSC&label=VISITAS&color=0059B3&style=for-the-badge)
 
 <br>
 
