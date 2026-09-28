@@ -2,7 +2,7 @@
 
 # EliOptimizer 🚀
 
-![Visitas](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fth3-Cat%2FEliOptimizer-LTSC&count_bg=%23FF5722&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=VISITAS&edge_flat=false)
+![Visitas](https://visitor-badge.laobi.icu/badge?page_id=th3-Cat.EliOptimizer-LTSC&left_color=555555&right_color=FF5722&style=for-the-badge)
 
 <br>
 
